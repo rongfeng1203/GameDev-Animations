@@ -10,6 +10,8 @@ let x3 = 100;
 let y3 = 300;
 let x4 = 150;
 let y4 = 100;
+let x5 = 300;
+let y5 = 250;
 let start = 0.1
 let stop = 6.2
 
@@ -40,29 +42,21 @@ function setup() {
 
 
 // TASK 2 pansexual flag
-// function draw() {
-// fill(255,230,0, 300);
-// stroke(0,0,0,0);
-// rect(x-150,y, width+140, height-50);
-// fill(255,0,140, 300);
-// stroke(0,0,0,0);
-// rect(x-150,y-50, width+140, height-50);
-// fill(0,190,255, 300);
-// stroke(0,0,0,0);
-// rect(x-150,y+50, width+140, height-50);
+// function setup() {
+//   createCanvas(400, 400);//create a canvas of 400x400 pixels
 // }
 
+
 // function draw() {
-// fill(255,230,0, 300);
-// stroke(0,0,0,0);
-// rect(x-150,y, width+140, height-50);
 // fill(255,0,140, 300);
 // stroke(0,0,0,0);
-// rect(x-150,y-50, width+140, height-50);
+// rect(x1-150,y1, width+140, height-50);
+// fill(255,230,0, 300);
+// stroke(0,0,0,0);
+// rect(x2-150,y2-50, width+140, height-50);
 // fill(0,190,255, 300);
 // stroke(0,0,0,0);
-// rect(x-150,y+50, width+140, height-50);
-
+// rect(x5-150,y5+50, width+140, height-50);
 // }
 
 //TASK 3
@@ -124,6 +118,36 @@ function setup() {
 //     if (y > height || y < 0) {
 //         y_speed = -y_speed;
 //     }
+// }
+
+// function setup() {
+//   createCanvas(500, 500);
+//   frameRate(100);
+// }
+
+// let x = 500;
+// let y = 10;
+// let x_move = -15;
+// let y_move = 10;
+// let d = 20;
+
+// function draw() {
+//   fill(0, 0, 0, 30);
+//   rect(0, 0, width, height);
+//   //background(0);
+//   fill(0, 255, 0);
+//   ellipse(x, y, d);
+
+//   x = x + x_move;
+//   y = y + y_move;
+//   if (x > 500 || x < 0) {
+//     x_move = -x_move;
+//     d += 0.5;
+//   } 
+//   if (y > 500 || y < 0) {
+//     y_move = -y_move;
+//     d += 0.5;
+//   }
 // }
 
 //TASK 4 copy
