@@ -1,3 +1,5 @@
+//https://gemini.google.com/share/c68fb127ca99
+
 let coinSound, playerImage, bgImage, coinImage;
 let platforms = [];
 let coins = [];

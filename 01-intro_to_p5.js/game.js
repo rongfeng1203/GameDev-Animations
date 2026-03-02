@@ -6,10 +6,10 @@ let bgImage
 function preload() {
   // You must upload files with these exact names to your sketch files
   soundFormats('wav');
-  coinSound = loadSound('...game/coin.wav');
-  playerImage = loadImage('...game/player.png');
-  coinImage = loadImage('...game/coin.png');
-  bgImage = loadImage('...game/background.png');
+  coinSound = loadSound('...Assets/coin.wav');
+  playerImage = loadImage('...Assets/player.png');
+  coinImage = loadImage('...Assets/coin.png');
+  bgImage = loadImage('...Assets/background.png');
 }
 
 
