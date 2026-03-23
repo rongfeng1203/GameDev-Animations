@@ -1,4 +1,7 @@
 //https://gemini.google.com/share/c68fb127ca99
+//implemented random platform generation + coins
+//need to reset the level after collecting all coins, and add a win condition
+//make a boundry and make sure no coins is generated where the player cannot get 
 
 let coinSound, playerImage, bgImage, coinImage;
 let platforms = [];
